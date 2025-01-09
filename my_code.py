@@ -1,5 +1,5 @@
 """
-Hi! I am John (22110108). This is for the purpose of lab assignment 1 for the course "Software Tools and Techniques for CSE".
+Hi! I am John (22110108). This is for the purpose of lab assignment 1.
 My module below implements the Merge Sort algorithm to sort an array in ascending order.
 It divides the array into smaller subarrays, recursively sorts them, and merges them back together.
 """
