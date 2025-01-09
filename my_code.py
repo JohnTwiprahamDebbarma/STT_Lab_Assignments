@@ -5,6 +5,15 @@ It divides the array into smaller subarrays, recursively sorts them, and merges 
 """
 
 def merge_sort(input_array):
+    """
+    This function sorts an input array using the Merge Sort algorithm.
+
+    Args:
+    input_array (list): A list of elements to be sorted.
+
+    Returns:
+    None: The list is sorted in place.
+    """
     if len(input_array) > 1:
         mid = len(input_array) // 2  # Finding the middle of the array
         left_half = input_array[:mid]  # Dividing the elements into two halves
@@ -37,9 +46,12 @@ def merge_sort(input_array):
             j += 1
             k += 1
 
+
 # Example usage
 if __name__ == "__main__":
     example_array = [38, 27, 43, 3, 9, 82, 10]
     print("Original array:", example_array)
+
     merge_sort(example_array)
+
     print("Sorted array:", example_array)
